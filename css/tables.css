@@ -8,3 +8,11 @@ table, th, td {
     text-align: center;
     padding: 10px 20px;
 }
+
+th {
+    height: 100px;
+}
+
+.vert {
+    color: green;
+}
