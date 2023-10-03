@@ -14,5 +14,37 @@ th {
 }
 
 .vert {
-    color: green;
+    background-color: green;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.darkcyan {
+    background-color: darkcyan;
+}
+
+.lightblue {
+    background-color: lightblue;
 }
