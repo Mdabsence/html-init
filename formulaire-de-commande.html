@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de connexion</title>
+</head>
+<body>
+<p>
+<main>
+    <section>
+        <h1>Formulaire de commande</h1>
+        <p>Les infomations obligatoires sont précédées par *.</p>
+    </section>
+    <section>
+        <h3>Informations de contact</h3>
+        <form action="/formulaire-de-commande.html" method="post">
+            <div>
+                <label for="civilité">Civilité*</label>
+                <select id="simple" name="simple" required>
+                    <option selected>--Choisir une option--</option>
+                    <option>Monsieur</option>
+                    <option>Madame</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Nom*</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="name">Prénom*</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="mail">Adresse email*</label>
+                <input type="email" id="mail" required>
+            </div>
+            <div>
+                <label for="tel">Téléphone*</label>
+                <input id="tel" required pattern="[0-9]">
+            </div>
+            <h3>Votre commande</h3>
+            <div>
+                <label for="calzone">Calzone</label>
+                <input type="number" id="quantity" value="0" min="0" max="10">
+            </div>
+            <div>
+                <label for="reine">Reine</label>
+                <input type="number" id="quantity" value="0" min="0" max="10">
+            </div>
+            <div>
+                <label for="4_fromages">4 fromages</label>
+                <input type="number" id="quantity" value="0" min="0" max="10">
+            </div>
+            <div>
+                <label for="chevre_miel">Chèvre miel</label>
+                <input type="number" id="quantity" value="0" min="0" max="10">
+            </div>
+            <div>
+                <label for="pepperoni">Pepperoni</label>
+                <input type="number" id="quantity" value="0" min="0" max="10">
+            </div>
+            <div>
+                <label for="instructions">Instructions supplémentaires</label>
+                <textarea cols="20" rows="2"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Valider et payer la comande</button>
+            </div>
+        </form> 
+    </section>
+</main>
+</p>
+</body>
